@@ -3,7 +3,6 @@
 #--------------------------------------------------------------
 resource "aws_instance" "main" {
     instance_type = "t2.micro"
-
     # Trusty 14.04
     ami = "ami-2a734c42"
 
